@@ -1,5 +1,5 @@
-a=int(input())
-if(1<=a<=100000):
+z=int(input())
+if(1<=z<=10000):
 print("Positive")
 else:
 print("Negative")
