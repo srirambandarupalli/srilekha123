@@ -1,4 +1,4 @@
-print( "Input:")
+print( "")
 f=input().split(" ")
 sum=0
 for j in f:
