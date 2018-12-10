@@ -1,7 +1,7 @@
-sum=0
+    sum=0
 
-for z in(1,2,3,4,5):
+for u in(1,2,3,4,5):
 
-	sum=sum+z
+	sum=sum+u
 
 	print(sum)
