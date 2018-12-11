@@ -1,3 +1,3 @@
-a=input(" ")
-b=len(a.split())
-print(b)
+z=input(" ")
+x=len(z.split())
+print(x)
