@@ -1,3 +1,3 @@
 p=input(" ")
-b=p.title()
-print(b)
+a=p.title()
+print(a)
