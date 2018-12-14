@@ -1,3 +1,3 @@
-y=['aac','ab','aa']
+y=['aac,ab,aa']
 y.sort()
 print(y)
