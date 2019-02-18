@@ -1,0 +1,5 @@
+z,v=map(int,input().split())
+y=input().split()
+x=len(y)
+y.sort()
+print(y[x-v])
