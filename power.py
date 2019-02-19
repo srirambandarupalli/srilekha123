@@ -1,4 +1,3 @@
-import sys
-a,b = map(int,input('enter a b :').split())
-s x**y
-print(s)
+n,k=map(int,input().split())
+ans=pow(n,k)
+print(ans)
