@@ -1,3 +1,3 @@
-n,k=map(int,input().split())
-ans=pow(n,k)
+s,t=map(int,input().split())
+ans=pow(s,t)
 print(ans)
