@@ -1,11 +1,12 @@
-num=int(input())
-n=list(map(int,input().split()))
-r=0
-l=[]
-for i in range(0,len(n)-1):
-	if int(n[i+1])>=int(n[i]):
-		r=r+1
-	else:
-		l.append(r)
-		r=0
-print(max(l)+1)
+m=int(input())
+y=list(map(int,input().split()))
+b=1
+s=[]
+for x in range(1,len(y)):
+    if(y[x]>=y[x-1]):
+        b=b+1
+    else:
+        s.append(b)
+        b=1
+s.append(b)
+print(max(s))
